@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+/* HEADER*/
+header {
+    background-color: rgb(240, 237, 205);
+    padding: 2%;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* LOGGAN*/
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    max-width: 70px;
+}
+
+.logo span{
+    color: black;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+/*NAV*/
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+ nav ul li a{
+    color: black;
+    text-decoration: underline;
+    font-size: 1.2em;
+ }
