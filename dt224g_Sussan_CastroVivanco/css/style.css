@@ -42,3 +42,48 @@ nav ul {
     text-decoration: underline;
     font-size: 1.2em;
  }
+
+/* SECTION HERO*/
+ .hero {
+    position: relative;
+    color:rgb(244, 247, 232);
+    margin: 0;
+ }
+
+ .hero img {
+    width: 100%;
+    height: 400px;
+    display: block;
+   /* position: relative;
+    width: 1375px;
+    height: 400px;
+    background-image: url("./images/hero.jpg");*/
+ }
+
+.hrubrik {
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
+
+.htext {
+    position: absolute;
+    top: 50px;
+    right: 20px;    
+}
+
+/*NATUR TEXT*/
+
+.naturtext{
+    text-align: center;
+    background-color: rgb(240, 237, 205);
+    padding: 2%;
+}
+
+/*UPPLEV NORRGLÄNTAN*/
+.upplev{
+    position: relative;
+    text-align: center;  
+    background-color: rgb(240, 239, 227);
+    padding: 2%;
+}
