@@ -87,3 +87,62 @@ nav ul {
     background-color: rgb(240, 239, 227);
     padding: 2%;
 }
+
+
+.vandra img { 
+/* clip-path: circle(); */
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.paddla img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.upptack img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/*PLANEERA DITT BESÖK*/
+
+.planera {
+    background-color: rgb(240, 239, 227);
+    padding: 2%;
+}
+
+.planera-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.planera-wrapper, h4 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.planera-wrapper, p {
+    line-height: 1.5;
+   
+}
+
+.button button{
+    background-color: rgb(168, 166, 166);
+    font-weight: bold;
+    padding: 0;
+   
+}
+
+.button{
+    display: flex;
+    margin-left: auto;
+    
+    
+}
