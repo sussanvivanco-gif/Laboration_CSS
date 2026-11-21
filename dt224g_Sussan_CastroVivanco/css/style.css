@@ -7,13 +7,28 @@ header {
     background-color: rgb(240, 237, 205);
     padding: 2%;
 }
+.header-wrapper {
+    display: block;
+    padding-left: 3%;
+}
+ nav ul li {
+    padding-bottom: 5%;
+    margin-left: 0;
+}
 
+ nav ul{
+    padding: 0;
+}
+
+@media (min-width: 768px){
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
 }
+}
+
 /* LOGGAN*/
 .logo {
     display: flex;
@@ -32,16 +47,26 @@ header {
 }
 
 /*NAV*/
-nav ul {
-    display: flex;
+nav ul{
+    display: block;
     list-style-type: none;
     gap: 20px;
 }
- nav ul li a{
+
+nav ul li a{    
     color: black;
     text-decoration: underline;
     font-size: 1.2em;
  }
+
+@media (min-width: 768px){
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+}
+
 
 /* SECTION HERO*/
  .hero {
@@ -74,37 +99,65 @@ nav ul {
 
 /*NATUR TEXT*/
 .naturtext{
-    text-align: center;
+    text-align: left;
     background-color: rgb(240, 237, 205);
     padding: 2%;
+    padding-left: 3%;
+}
+
+.naturtext h2{
+    text-align: center;
+}
+
+@media (min-width: 780px) {
+    .naturtext-wrapper{
+        background-color: rgb(240, 237, 205);
+    }
+    .naturtext {
+         max-width: 780px;
+         margin: auto;
+    }
+    
+    .naturtext h2 {
+        text-align: center;
+    }
+    
+    .naturtext p {
+        text-align: left;
+        
+    }
 }
 
 /*UPPLEV NORRGLÄNTAN*/
-.all-browser {
+.browser-wrapper {
     background-color: #6EA371;
     padding: 2%;
 }
 
+.browser-wrapper h2 {
+    text-align: center;
+}
+
 .browser a{
+    display: block; 
     text-decoration: none;
-    color
-}
-.vandra img { 
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+    color: black; 
 }
 
-.paddla img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+@media (min-width: 780px) {
+    .all-browser {
+        display: flex; 
+        align-items: center;
+        text-decoration: none;     
+        gap: 20px;
 }
-
-.upptack img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+    .all-browser h2{
+        text-align: center;
+         
+}
+    .browser {
+        max-width: 780px;
+    }
 }
 
 /*PLANERA DITT BESÖK*/
