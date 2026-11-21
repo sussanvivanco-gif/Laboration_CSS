@@ -44,6 +44,11 @@ nav ul {
  }
 
 /* SECTION HERO*/
+.main {
+    background-color: #6EA371;
+    padding: 2%;
+
+}
  .hero {
     position: relative;
     color:rgb(244, 247, 232);
@@ -71,6 +76,8 @@ nav ul {
     top: 50px;
     right: 20px;    
 }
+
+
 
 /*NATUR TEXT*/
 
