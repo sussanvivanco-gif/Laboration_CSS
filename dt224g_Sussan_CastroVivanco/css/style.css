@@ -44,11 +44,6 @@ nav ul {
  }
 
 /* SECTION HERO*/
-.main {
-    background-color: #6EA371;
-    padding: 2%;
-
-}
  .hero {
     position: relative;
     color:rgb(244, 247, 232);
@@ -77,10 +72,7 @@ nav ul {
     right: 20px;    
 }
 
-
-
 /*NATUR TEXT*/
-
 .naturtext{
     text-align: center;
     background-color: rgb(240, 237, 205);
@@ -88,16 +80,16 @@ nav ul {
 }
 
 /*UPPLEV NORRGLÄNTAN*/
-.upplev{
-    position: relative;
-    text-align: center;  
-    background-color: rgb(240, 239, 227);
+.all-browser {
+    background-color: #6EA371;
     padding: 2%;
 }
 
-
+.browser a{
+    text-decoration: none;
+    color
+}
 .vandra img { 
-/* clip-path: circle(); */
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -155,6 +147,11 @@ nav ul {
 }
 
 /*FOOTER*/
+footer{
+        background-color: #6EA371;
+    padding: 2%;
+}
+ 
 footer li {
     display: flex;
     align-items: center;
