@@ -4,7 +4,7 @@ body {
 
 /* HEADER*/
 header {
-    background-color: rgb(240, 237, 205);
+    background-color: rgb(240, 239, 227);
     padding: 2%;
 }
 .header-wrapper {
@@ -100,7 +100,7 @@ nav ul{
 /*NATUR TEXT*/
 .naturtext{
     text-align: left;
-    background-color: rgb(240, 237, 205);
+    background-color: rgb(240, 239, 227);
     padding: 2%;
     padding-left: 3%;
 }
@@ -111,7 +111,7 @@ nav ul{
 
 @media (min-width: 780px) {
     .naturtext-wrapper{
-        background-color: rgb(240, 237, 205);
+        background-color: rgb(240, 239, 227);
     }
     .naturtext {
          max-width: 780px;
@@ -154,7 +154,7 @@ nav ul{
 .browser{
     margin: 5px;
     border: 1px solid black;
-    background-color: rgb(240, 237, 205);
+    background-color: rgb(240, 239, 227);
     width: 360px;
 }
 .browser:hover {
@@ -227,12 +227,15 @@ nav ul{
 }
 
 .planera-button {
-    margin-left: auto;   
+    text-align: center; 
+    padding-bottom: 5%;
 }
 
 .planera-button button{
     background-color: rgb(168, 166, 166);
     font-weight: bold;
+    padding: 0.75rem 1.5rem; 
+    white-space: nowrap; 
 }
 
 @media (min-width: 780px) {
@@ -242,20 +245,226 @@ nav ul{
         gap: 80px;
     }
 
-    .planera-button {
-        margin-left: auto;
-    }
+ 
 }
 /*FOOTER*/
-footer{
-        background-color: #6EA371;
-    padding: 2%;
+
+footer {
+    background-color: #6EA371;
+    padding: 5%;
 }
- 
+
+.footer-wrapper {
+    display: block;
+    padding-left: 3%;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    max-width: 70px;
+}
+
+.footer-logo span {
+    color: black;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.footer-kontakt {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
 footer li {
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style-type: none;
     gap: 20px;
+    
 }
+
+footer ul li {
+    padding-bottom: 1%;
+    margin-left: 0;
+}
+
+footer ul{
+    display: block;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+}
+
+footer ul li a{    
+    color: black;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+@media (min-width: 768px){
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: auto;
+        margin: 0 auto;
+    }
+
+    footer ul{
+        display: flex;
+        justify-content: flex-end;
+        gap: none;
+    }
+}
+/*.footer {
+    background-color: #6EA371;
+    padding: 2%;
+}
+
+.footer-wrapper {
+    display: block;
+    padding-left: 3%;
+}
+ 
+.footer li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 20px;
+    
+}
+
+.footer ul li {
+    padding-bottom: 5%;
+    margin-left: 0;
+}
+
+.footer ul{
+    display: block;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.footer ul li a{    
+    color: black;
+    text-decoration: underline;
+    font-size: 1.2em;
+ }
+
+@media (min-width: 768px){
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .footer ul{
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+}
+
+
+/*
+nav ul{
+    display: block;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav ul li a{    
+    color: black;
+    text-decoration: underline;
+    font-size: 1.2em;
+ }
+
+@media (min-width: 768px){
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+}
+
+/*
+
+
+/* LOGGAN
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    max-width: 70px;
+}
+
+.logo span{
+    color: black;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+/*NAV
+nav ul{
+    display: block;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav ul li a{    
+    color: black;
+    text-decoration: underline;
+    font-size: 1.2em;
+ }
+
+@media (min-width: 768px){
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+}
+
+
+
+
+
+
+
+HEADER
+header {
+    background-color: rgb(240, 237, 205);
+    padding: 2%;
+}
+.header-wrapper {
+    display: block;
+    padding-left: 3%;
+}
+ nav ul li {
+    padding-bottom: 5%;
+    margin-left: 0;
+}
+
+ nav ul{
+    padding: 0;
+}
+
+@media (min-width: 768px){
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+}*/
