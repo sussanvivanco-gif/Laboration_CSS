@@ -129,13 +129,20 @@ nav ul{
 }
 
 /*UPPLEV NORRGLÄNTAN*/
-.browser-wrapper {
+.all-browser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #6EA371;
+    gap: 20px;
     padding: 2%;
 }
 
 .browser-wrapper h2 {
     text-align: center;
+    background-color: #6EA371;
+    padding: 2%;
+    margin: 0;
 }
 
 .browser a{
@@ -144,24 +151,58 @@ nav ul{
     color: black; 
 }
 
+.browser{
+    margin: 5px;
+    border: 1px solid black;
+    background-color: rgb(240, 237, 205);
+    width: 360px;
+}
+.browser:hover {
+    border: 1px solid #777;
+}
+.browser img {
+    width: 100%;
+    height: auto;
+}
+.browser p {
+    padding: 15px;
+    text-align: left;
+}
+.browser h3{
+    text-align: center;
+}
+
+.paddla p {
+    margin: 7px;
+}
+
+
 @media (min-width: 780px) {
     .all-browser {
         display: flex; 
         align-items: center;
         text-decoration: none;     
-        gap: 20px;
+        gap: 40px;
 }
     .all-browser h2{
-        text-align: center;
+        text-align: center;   
          
 }
     .browser {
         max-width: 780px;
     }
+
+.paddla p {
+    margin: 0;
+}
+.paddla h3 {
+    margin-top: 9,09px;
+    margin-bottom: 9,09px;
+}
 }
 
-/*PLANERA DITT BESÖK*/
 
+/*PLANERA DITT BESÖK*/
 .planera {
     background-color: rgb(240, 239, 227);
     padding: 2%;
@@ -169,12 +210,12 @@ nav ul{
 
 .planera-wrapper {
     display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
+    align-items: center;
+    max-width: 780px;
     margin: 0 auto;
 }
 
-.planera-wrapper, h4 {
+.planera h2 {
     display: flex;
     align-items: center;
     gap: 40px;
