@@ -208,17 +208,17 @@ nav ul{
     padding: 2%;
 }
 
-.planera-wrapper {
-    display: flex;
-    align-items: center;
-    max-width: 780px;
-    margin: 0 auto;
+.planera h2 {
+    text-align: center;
 }
 
-.planera h2 {
+.planera-wrapper {
     display: flex;
-    align-items: center;
-    gap: 40px;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .planera-wrapper, p {
@@ -226,20 +226,26 @@ nav ul{
    
 }
 
-.button button{
+.planera-button {
+    margin-left: auto;   
+}
+
+.planera-button button{
     background-color: rgb(168, 166, 166);
     font-weight: bold;
-    padding: 0;
-   
 }
 
-.button{
-    display: flex;
-    margin-left: auto;
-    
-    
-}
+@media (min-width: 780px) {
+    .planera-wrapper{
+        flex-direction: row;
+        align-items: center;
+        gap: 80px;
+    }
 
+    .planera-button {
+        margin-left: auto;
+    }
+}
 /*FOOTER*/
 footer{
         background-color: #6EA371;
